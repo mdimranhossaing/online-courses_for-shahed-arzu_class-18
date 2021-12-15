@@ -1,0 +1,422 @@
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background-color: lightgray;
+}
+
+/*Animation 1*/
+.button {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	text-align: center;
+	-webkit-animation: animat 5s ease 1s infinite alternate forwards;
+	        animation: animat 5s ease 1s infinite alternate forwards;
+}
+@-webkit-keyframes animat {
+	0% {
+		top: 100px;
+		left: 0;
+	}
+	50% {
+		top: 100px;
+		left: calc(100% - 133px);
+		-webkit-transform: rotate(720deg);
+		        transform: rotate(720deg);
+	}
+	100% {
+		top: 100px;
+		left: 0;
+	}
+}
+@keyframes animat {
+	0% {
+		top: 100px;
+		left: 0;
+	}
+	50% {
+		top: 100px;
+		left: calc(100% - 133px);
+		-webkit-transform: rotate(720deg);
+		        transform: rotate(720deg);
+	}
+	100% {
+		top: 100px;
+		left: 0;
+	}
+}
+.button a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding: 8px 12px;
+	background: tomato;
+	letter-spacing: 2px;
+	border: 2px inset #fff;
+	text-transform: uppercase;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
+}
+
+/*Animation 2*/
+.button2 {
+	position: absolute;
+	top: 90px;
+	left: 0;
+	text-align: center;
+	-webkit-animation: animat 5s ease 2s infinite alternate forwards;
+	        animation: animat 5s ease 2s infinite alternate forwards;
+}
+@keyframes animat {
+	0% {
+		top: 100px;
+		left: 0;
+	}
+	50% {
+		top: 100px;
+		left: calc(100% - 133px);
+		-webkit-transform: rotate(720deg);
+		        transform: rotate(720deg);
+	}
+	100% {
+		top: 100px;
+		left: 0;
+	}
+}
+.button2 a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: #333;
+	padding: 8px 12px;
+	background: cyan;
+	letter-spacing: 2px;
+	border: 2px inset #333;
+	text-transform: uppercase;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
+}
+
+/*Animation 3*/
+.button3 {
+	position: absolute;
+	top: 80px;
+	left: 0;
+	text-align: center;
+	-webkit-animation: animat 5s ease 3s infinite alternate forwards;
+	        animation: animat 5s ease 3s infinite alternate forwards;
+}
+@keyframes animat {
+	0% {
+		top: 100px;
+		left: 0;
+	}
+	50% {
+		top: 100px;
+		left: calc(100% - 133px);
+		-webkit-transform: rotate(720deg);
+		        transform: rotate(720deg);
+	}
+	100% {
+		top: 100px;
+		left: 0;
+	}
+}
+.button3 a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding: 8px 12px;
+	background: magenta;
+	letter-spacing: 2px;
+	border: 2px inset #fff;
+	text-transform: uppercase;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
+}
+
+/*Animation 4*/
+.button4 {
+	position: absolute;
+	top: 70px;
+	left: 0;
+	text-align: center;
+	-webkit-animation: animat 5s ease 4s infinite alternate forwards;
+	        animation: animat 5s ease 4s infinite alternate forwards;
+}
+@keyframes animat {
+	0% {
+		top: 100px;
+		left: 0;
+	}
+	50% {
+		top: 100px;
+		left: calc(100% - 133px);
+		-webkit-transform: rotate(720deg);
+		        transform: rotate(720deg);
+	}
+	100% {
+		top: 100px;
+		left: 0;
+	}
+}
+.button4 a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding: 8px 12px;
+	background: red;
+	letter-spacing: 2px;
+	border: 2px inset #fff;
+	text-transform: uppercase;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
+}
+
+/*Animation 5*/
+.button5 {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	text-align: center;
+	-webkit-animation: animat 5s ease 5s infinite alternate forwards;
+	        animation: animat 5s ease 5s infinite alternate forwards;
+}
+@keyframes animat {
+	0% {
+		top: 100px;
+		left: 0;
+	}
+	50% {
+		top: 100px;
+		left: calc(100% - 133px);
+		-webkit-transform: rotate(720deg);
+		        transform: rotate(720deg);
+	}
+	100% {
+		top: 100px;
+		left: 0;
+	}
+}
+.button5 a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding: 8px 12px;
+	background: black;
+	letter-spacing: 2px;
+	border: 2px inset #fff;
+	text-transform: uppercase;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
+}
+
+/*Animation 6*/
+.button6 {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	text-align: center;
+	-webkit-animation: animat 5s ease 6s infinite alternate forwards;
+	        animation: animat 5s ease 6s infinite alternate forwards;
+}
+@keyframes animat {
+	0% {
+		top: 100px;
+		left: 0;
+	}
+	50% {
+		top: 100px;
+		left: calc(100% - 133px);
+		-webkit-transform: rotate(720deg);
+		        transform: rotate(720deg);
+	}
+	100% {
+		top: 100px;
+		left: 0;
+	}
+}
+.button6 a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding: 8px 12px;
+	background: blue;
+	letter-spacing: 2px;
+	border: 2px inset #fff;
+	text-transform: uppercase;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
+}
+
+/*Animation 7*/
+.button7 {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	text-align: center;
+	-webkit-animation: animat 5s ease 7s infinite alternate forwards;
+	        animation: animat 5s ease 7s infinite alternate forwards;
+}
+@keyframes animat {
+	0% {
+		top: 100px;
+		left: 0;
+	}
+	50% {
+		top: 100px;
+		left: calc(100% - 133px);
+		-webkit-transform: rotate(720deg);
+		        transform: rotate(720deg);
+	}
+	100% {
+		top: 100px;
+		left: 0;
+	}
+}
+.button7 a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding: 8px 12px;
+	background: green;
+	letter-spacing: 2px;
+	border: 2px inset #fff;
+	text-transform: uppercase;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
+}
+
+/*Animation 8*/
+.button8 {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	text-align: center;
+	-webkit-animation: animat 5s ease 8s infinite alternate forwards;
+	        animation: animat 5s ease 8s infinite alternate forwards;
+}
+@keyframes animat {
+	0% {
+		top: 100px;
+		left: 0;
+	}
+	50% {
+		top: 100px;
+		left: calc(100% - 133px);
+		-webkit-transform: rotate(720deg);
+		        transform: rotate(720deg);
+	}
+	100% {
+		top: 100px;
+		left: 0;
+	}
+}
+.button8 a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding: 8px 12px;
+	background: orange;
+	letter-spacing: 2px;
+	border: 2px inset #fff;
+	text-transform: uppercase;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
+}
+
+/*Animation 9*/
+.button9 {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	text-align: center;
+	-webkit-animation: animat 5s ease 9s infinite alternate forwards;
+	        animation: animat 5s ease 9s infinite alternate forwards;
+}
+@keyframes animat {
+	0% {
+		top: 100px;
+		left: 0;
+	}
+	50% {
+		top: 100px;
+		left: calc(100% - 133px);
+		-webkit-transform: rotate(720deg);
+		        transform: rotate(720deg);
+	}
+	100% {
+		top: 100px;
+		left: 0;
+	}
+}
+.button9 a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding: 8px 12px;
+	background: pink;
+	letter-spacing: 2px;
+	border: 2px inset #fff;
+	text-transform: uppercase;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
+}
+
+/*Animation 10*/
+.button10 {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	text-align: center;
+	-webkit-animation: animat 5s ease 10s infinite alternate forwards;
+	        animation: animat 5s ease 10s infinite alternate forwards;
+}
+@keyframes animat {
+	0% {
+		top: 100px;
+		left: 0;
+	}
+	50% {
+		top: 100px;
+		left: calc(100% - 133px);
+		-webkit-transform: rotate(720deg);
+		        transform: rotate(720deg);
+	}
+	100% {
+		top: 100px;
+		left: 0;
+	}
+}
+.button10 a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding: 8px 12px;
+	background: lime;
+	letter-spacing: 2px;
+	border: 2px inset #fff;
+	text-transform: uppercase;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
+}

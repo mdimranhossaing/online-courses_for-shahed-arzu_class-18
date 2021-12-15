@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: yellow;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  /* animation-name: animate;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: backwards; */
+
+  animation: animate 1s linear 1s infinite alternate-reverse;
+}
+
+@keyframes animate {
+  0% {
+    left: 0;
+    top: 0;
+    background-color: white;
+  }
+  25% {
+    left: 300px;
+    top: 0;
+    background-color: turquoise;
+  }
+  50% {
+    left: 300px;
+    top: 300px;
+    background-color: violet;
+  }
+  75% {
+    left: 0;
+    top: 300px;
+    background-color: tomato;
+  }
+  100% {
+    left: 0;
+    top: 0;
+    transform: rotate(720deg);
+  }
+}
+
+
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: navy;
+}
